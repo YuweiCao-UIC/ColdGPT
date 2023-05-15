@@ -1,0 +1,981 @@
+16:20:12,205 root INFO ---------------- args ----------------
+16:20:12,206 root INFO pretrain_batch_size: 128
+16:20:12,206 root INFO embed_dim: 64
+16:20:12,206 root INFO lr: 0.005
+16:20:12,206 root INFO weight_decay: 0.01
+16:20:12,206 root INFO epochs: 999
+16:20:12,206 root INFO early_stop: 5
+16:20:12,206 root INFO early_stop_delta: 0.001
+16:20:12,206 root INFO gpu: 0
+16:20:12,206 root INFO seed: 4
+16:20:12,206 root INFO pretrain_loss: directau
+16:20:12,206 root INFO plm: SBER
+16:20:12,206 root INFO edge_dropout: 0.3
+16:20:12,206 root INFO BERT4Rec_max_len: 100
+16:20:12,206 root INFO BERT4Rec_n_layers: 1
+16:20:12,206 root INFO BERT4Rec_n_heads: 1
+16:20:12,206 root INFO BERT4Rec_mask_prob: 0.2
+16:20:12,206 root INFO BERT4Rec_dropout: 0.3
+16:20:12,206 root INFO data_path: ./data/
+16:20:12,206 root INFO log_path: ./log/log
+16:20:12,206 root INFO model_load_path: 
+16:20:12,206 root INFO model_save_path: ./model/checkpoint.pkl
+16:20:12,207 root INFO lambda_reg: 1
+16:20:12,207 root INFO t1: True
+16:20:12,207 root INFO t2: True
+16:20:12,207 root INFO t3: True
+16:20:12,207 root INFO w_t1: 0.6
+16:20:12,207 root INFO w_t2: 0.2
+16:20:12,207 root INFO w_t3: 0.2
+16:20:12,207 root INFO lr_rec: 0.001
+16:20:12,207 root INFO loss: mse
+16:20:12,207 root INFO activation: sigmoid
+16:20:12,207 root INFO rank_new: False
+16:20:12,207 root INFO k_list: [5, 20, 40]
+16:20:12,207 root INFO --------------------------------------
+16:20:59,396 root INFO ---------------- args ----------------
+16:20:59,397 root INFO pretrain_batch_size: 128
+16:20:59,397 root INFO embed_dim: 64
+16:20:59,397 root INFO lr: 0.005
+16:20:59,397 root INFO weight_decay: 0.01
+16:20:59,397 root INFO epochs: 999
+16:20:59,397 root INFO early_stop: 5
+16:20:59,397 root INFO early_stop_delta: 0.001
+16:20:59,397 root INFO gpu: 0
+16:20:59,397 root INFO seed: 4
+16:20:59,397 root INFO pretrain_loss: directau
+16:20:59,397 root INFO plm: SBER
+16:20:59,398 root INFO edge_dropout: 0.3
+16:20:59,398 root INFO BERT4Rec_max_len: 100
+16:20:59,398 root INFO BERT4Rec_n_layers: 1
+16:20:59,398 root INFO BERT4Rec_n_heads: 1
+16:20:59,398 root INFO BERT4Rec_mask_prob: 0.2
+16:20:59,398 root INFO BERT4Rec_dropout: 0.3
+16:20:59,398 root INFO data_path: ./data/yelp/
+16:20:59,398 root INFO log_path: ./log/log
+16:20:59,398 root INFO model_load_path: 
+16:20:59,398 root INFO model_save_path: ./model/checkpoint.pkl
+16:20:59,398 root INFO lambda_reg: 1
+16:20:59,398 root INFO t1: True
+16:20:59,399 root INFO t2: True
+16:20:59,399 root INFO t3: True
+16:20:59,399 root INFO w_t1: 0.6
+16:20:59,399 root INFO w_t2: 0.2
+16:20:59,399 root INFO w_t3: 0.2
+16:20:59,399 root INFO lr_rec: 0.001
+16:20:59,399 root INFO loss: mse
+16:20:59,399 root INFO activation: sigmoid
+16:20:59,399 root INFO rank_new: False
+16:20:59,399 root INFO k_list: [5, 20, 40]
+16:20:59,399 root INFO --------------------------------------
+16:21:00,867 root INFO task1: generate item-attribute graph
+16:23:52,730 root INFO ---------------- args ----------------
+16:23:52,730 root INFO pretrain_batch_size: 128
+16:23:52,730 root INFO embed_dim: 64
+16:23:52,730 root INFO lr: 0.005
+16:23:52,730 root INFO weight_decay: 0.01
+16:23:52,730 root INFO epochs: 999
+16:23:52,730 root INFO early_stop: 5
+16:23:52,730 root INFO early_stop_delta: 0.001
+16:23:52,730 root INFO gpu: 0
+16:23:52,730 root INFO seed: 4
+16:23:52,731 root INFO pretrain_loss: directau
+16:23:52,731 root INFO plm: SBERT
+16:23:52,731 root INFO edge_dropout: 0.3
+16:23:52,731 root INFO BERT4Rec_max_len: 100
+16:23:52,731 root INFO BERT4Rec_n_layers: 1
+16:23:52,731 root INFO BERT4Rec_n_heads: 1
+16:23:52,731 root INFO BERT4Rec_mask_prob: 0.2
+16:23:52,731 root INFO BERT4Rec_dropout: 0.3
+16:23:52,731 root INFO data_path: ./data/yelp/
+16:23:52,731 root INFO log_path: ./log/log
+16:23:52,731 root INFO model_load_path: 
+16:23:52,731 root INFO model_save_path: ./model/checkpoint.pkl
+16:23:52,731 root INFO lambda_reg: 1
+16:23:52,731 root INFO t1: True
+16:23:52,731 root INFO t2: True
+16:23:52,731 root INFO t3: True
+16:23:52,731 root INFO w_t1: 0.6
+16:23:52,731 root INFO w_t2: 0.2
+16:23:52,731 root INFO w_t3: 0.2
+16:23:52,731 root INFO lr_rec: 0.001
+16:23:52,731 root INFO loss: mse
+16:23:52,731 root INFO activation: sigmoid
+16:23:52,732 root INFO rank_new: False
+16:23:52,732 root INFO k_list: [5, 20, 40]
+16:23:52,732 root INFO --------------------------------------
+16:23:54,175 root INFO task1: generate item-attribute graph
+16:23:54,395 root INFO task2: generate user-item interaction sequence
+16:24:32,746 root INFO ---------------- args ----------------
+16:24:32,746 root INFO pretrain_batch_size: 128
+16:24:32,746 root INFO embed_dim: 64
+16:24:32,746 root INFO lr: 0.005
+16:24:32,746 root INFO weight_decay: 0.01
+16:24:32,746 root INFO epochs: 999
+16:24:32,747 root INFO early_stop: 5
+16:24:32,747 root INFO early_stop_delta: 0.001
+16:24:32,747 root INFO gpu: 0
+16:24:32,747 root INFO seed: 4
+16:24:32,747 root INFO pretrain_loss: directau
+16:24:32,747 root INFO plm: SBERT
+16:24:32,747 root INFO edge_dropout: 0.3
+16:24:32,747 root INFO BERT4Rec_max_len: 100
+16:24:32,747 root INFO BERT4Rec_n_layers: 1
+16:24:32,747 root INFO BERT4Rec_n_heads: 1
+16:24:32,747 root INFO BERT4Rec_mask_prob: 0.2
+16:24:32,747 root INFO BERT4Rec_dropout: 0.3
+16:24:32,747 root INFO data_path: ./data/yelp/
+16:24:32,747 root INFO log_path: ./log/log
+16:24:32,747 root INFO model_load_path: 
+16:24:32,747 root INFO model_save_path: ./model/checkpoint.pkl
+16:24:32,747 root INFO lambda_reg: 1
+16:24:32,747 root INFO t1: True
+16:24:32,747 root INFO t2: True
+16:24:32,747 root INFO t3: True
+16:24:32,747 root INFO w_t1: 0.6
+16:24:32,747 root INFO w_t2: 0.2
+16:24:32,747 root INFO w_t3: 0.2
+16:24:32,748 root INFO lr_rec: 0.001
+16:24:32,748 root INFO loss: mse
+16:24:32,748 root INFO activation: sigmoid
+16:24:32,748 root INFO rank_new: False
+16:24:32,748 root INFO k_list: [5, 20, 40]
+16:24:32,748 root INFO --------------------------------------
+16:24:34,151 root INFO task1: generate item-attribute graph
+16:24:34,375 root INFO task2: generate user-item interaction sequence
+16:26:20,386 root INFO ---------------- args ----------------
+16:26:20,386 root INFO pretrain_batch_size: 128
+16:26:20,386 root INFO embed_dim: 64
+16:26:20,386 root INFO lr: 0.005
+16:26:20,386 root INFO weight_decay: 0.01
+16:26:20,386 root INFO epochs: 999
+16:26:20,386 root INFO early_stop: 5
+16:26:20,386 root INFO early_stop_delta: 0.001
+16:26:20,386 root INFO gpu: 0
+16:26:20,386 root INFO seed: 4
+16:26:20,386 root INFO pretrain_loss: directau
+16:26:20,387 root INFO plm: SBERT
+16:26:20,387 root INFO edge_dropout: 0.3
+16:26:20,387 root INFO BERT4Rec_max_len: 100
+16:26:20,387 root INFO BERT4Rec_n_layers: 1
+16:26:20,387 root INFO BERT4Rec_n_heads: 1
+16:26:20,387 root INFO BERT4Rec_mask_prob: 0.2
+16:26:20,387 root INFO BERT4Rec_dropout: 0.3
+16:26:20,387 root INFO data_path: ./data/yelp/
+16:26:20,387 root INFO log_path: ./log/log
+16:26:20,387 root INFO model_load_path: 
+16:26:20,387 root INFO model_save_path: ./model/checkpoint.pkl
+16:26:20,387 root INFO lambda_reg: 1
+16:26:20,387 root INFO t1: True
+16:26:20,387 root INFO t2: True
+16:26:20,387 root INFO t3: True
+16:26:20,387 root INFO w_t1: 0.6
+16:26:20,387 root INFO w_t2: 0.2
+16:26:20,387 root INFO w_t3: 0.2
+16:26:20,387 root INFO lr_rec: 0.001
+16:26:20,387 root INFO loss: mse
+16:26:20,387 root INFO activation: sigmoid
+16:26:20,387 root INFO rank_new: False
+16:26:20,388 root INFO k_list: [5, 20, 40]
+16:26:20,388 root INFO --------------------------------------
+16:26:21,814 root INFO task1: generate item-attribute graph
+16:26:22,39 root INFO task2: generate user-item interaction sequence
+16:26:24,977 root INFO ---------------- Pre-training hete model ----------------
+16:26:24,984 root INFO Epoch 1, step 0/957.
+16:26:57,671 root INFO ---------- Pre-training loss of epoch 1 ----------
+16:26:57,671 root INFO Overall loss: -3.422044
+16:26:57,671 root INFO Task 1 loss: -3.532377
+16:26:57,672 root INFO Task 2 loss: -1.806154
+16:26:57,672 root INFO Task 3 loss: -3.923227
+16:26:57,781 root INFO Epoch 2, step 0/957.
+16:27:25,202 root INFO ---------- Pre-training loss of epoch 2 ----------
+16:27:25,202 root INFO Overall loss: -4.334488
+16:27:25,202 root INFO Task 1 loss: -4.402398
+16:27:25,203 root INFO Task 2 loss: -2.270731
+16:27:25,203 root INFO Task 3 loss: -5.033096
+16:27:25,203 root INFO loss: -4.334488391876221, Performance is better... saving the model
+16:27:25,210 root INFO Epoch 3, step 0/957.
+16:27:53,484 root INFO ---------- Pre-training loss of epoch 3 ----------
+16:27:53,484 root INFO Overall loss: -4.783685
+16:27:53,484 root INFO Task 1 loss: -4.880435
+16:27:53,484 root INFO Task 2 loss: -2.511418
+16:27:53,484 root INFO Task 3 loss: -5.535260
+16:27:53,484 root INFO loss: -4.783685207366943, Performance is better... saving the model
+16:27:53,492 root INFO Epoch 4, step 0/957.
+16:28:22,206 root INFO ---------- Pre-training loss of epoch 4 ----------
+16:28:22,206 root INFO Overall loss: -5.077098
+16:28:22,206 root INFO Task 1 loss: -5.193268
+16:28:22,206 root INFO Task 2 loss: -2.677942
+16:28:22,206 root INFO Task 3 loss: -5.859365
+16:28:22,206 root INFO loss: -5.0770978927612305, Performance is better... saving the model
+16:28:22,215 root INFO Epoch 5, step 0/957.
+16:28:50,539 root INFO ---------- Pre-training loss of epoch 5 ----------
+16:28:50,540 root INFO Overall loss: -5.265897
+16:28:50,540 root INFO Task 1 loss: -5.396195
+16:28:50,540 root INFO Task 2 loss: -2.791402
+16:28:50,540 root INFO Task 3 loss: -6.064273
+16:28:50,540 root INFO loss: -5.265897274017334, Performance is better... saving the model
+16:28:50,550 root INFO Epoch 6, step 0/957.
+16:29:19,46 root INFO ---------- Pre-training loss of epoch 6 ----------
+16:29:19,46 root INFO Overall loss: -5.403523
+16:29:19,46 root INFO Task 1 loss: -5.542895
+16:29:19,47 root INFO Task 2 loss: -2.866235
+16:29:19,47 root INFO Task 3 loss: -6.217516
+16:29:19,47 root INFO loss: -5.403522968292236, Performance is better... saving the model
+16:29:19,54 root INFO Epoch 7, step 0/957.
+16:29:46,474 root INFO ---------- Pre-training loss of epoch 7 ----------
+16:29:46,474 root INFO Overall loss: -5.516134
+16:29:46,474 root INFO Task 1 loss: -5.670276
+16:29:46,474 root INFO Task 2 loss: -2.927795
+16:29:46,475 root INFO Task 3 loss: -6.336920
+16:29:46,475 root INFO loss: -5.516133785247803, Performance is better... saving the model
+16:29:46,484 root INFO Epoch 8, step 0/957.
+16:30:14,989 root INFO ---------- Pre-training loss of epoch 8 ----------
+16:30:14,989 root INFO Overall loss: -5.583503
+16:30:14,990 root INFO Task 1 loss: -5.741747
+16:30:14,990 root INFO Task 2 loss: -2.962149
+16:30:14,990 root INFO Task 3 loss: -6.413062
+16:30:14,990 root INFO loss: -5.583502769470215, Performance is better... saving the model
+16:30:15,98 root INFO Epoch 9, step 0/957.
+16:30:43,406 root INFO ---------- Pre-training loss of epoch 9 ----------
+16:30:43,407 root INFO Overall loss: -5.664987
+16:30:43,407 root INFO Task 1 loss: -5.824507
+16:30:43,407 root INFO Task 2 loss: -3.010643
+16:30:43,407 root INFO Task 3 loss: -6.505543
+16:30:43,407 root INFO loss: -5.664986610412598, Performance is better... saving the model
+16:30:43,415 root INFO Epoch 10, step 0/957.
+16:31:11,735 root INFO ---------- Pre-training loss of epoch 10 ----------
+16:31:11,735 root INFO Overall loss: -5.747303
+16:31:11,735 root INFO Task 1 loss: -5.911160
+16:31:11,735 root INFO Task 2 loss: -3.053649
+16:31:11,735 root INFO Task 3 loss: -6.598734
+16:31:11,735 root INFO loss: -5.747303485870361, Performance is better... saving the model
+16:31:11,743 root INFO Epoch 11, step 0/957.
+16:31:40,39 root INFO ---------- Pre-training loss of epoch 11 ----------
+16:31:40,39 root INFO Overall loss: -5.813365
+16:31:40,39 root INFO Task 1 loss: -5.988412
+16:31:40,40 root INFO Task 2 loss: -3.089577
+16:31:40,40 root INFO Task 3 loss: -6.666816
+16:31:40,40 root INFO loss: -5.813364505767822, Performance is better... saving the model
+16:31:40,49 root INFO Epoch 12, step 0/957.
+16:32:08,318 root INFO ---------- Pre-training loss of epoch 12 ----------
+16:32:08,318 root INFO Overall loss: -5.862873
+16:32:08,318 root INFO Task 1 loss: -6.045520
+16:32:08,318 root INFO Task 2 loss: -3.116650
+16:32:08,318 root INFO Task 3 loss: -6.718415
+16:32:08,318 root INFO loss: -5.862873077392578, Performance is better... saving the model
+16:32:08,435 root INFO Epoch 13, step 0/957.
+16:32:36,838 root INFO ---------- Pre-training loss of epoch 13 ----------
+16:32:36,838 root INFO Overall loss: -5.913631
+16:32:36,838 root INFO Task 1 loss: -6.103774
+16:32:36,838 root INFO Task 2 loss: -3.143108
+16:32:36,838 root INFO Task 3 loss: -6.772046
+16:32:36,838 root INFO loss: -5.913630962371826, Performance is better... saving the model
+16:32:36,847 root INFO Epoch 14, step 0/957.
+16:33:06,65 root INFO ---------- Pre-training loss of epoch 14 ----------
+16:33:06,65 root INFO Overall loss: -5.954946
+16:33:06,65 root INFO Task 1 loss: -6.144182
+16:33:06,65 root INFO Task 2 loss: -3.164849
+16:33:06,65 root INFO Task 3 loss: -6.821224
+16:33:06,65 root INFO loss: -5.954946041107178, Performance is better... saving the model
+16:33:06,73 root INFO Epoch 15, step 0/957.
+16:33:34,304 root INFO ---------- Pre-training loss of epoch 15 ----------
+16:33:34,304 root INFO Overall loss: -5.994977
+16:33:34,304 root INFO Task 1 loss: -6.188574
+16:33:34,304 root INFO Task 2 loss: -3.184086
+16:33:34,305 root INFO Task 3 loss: -6.865367
+16:33:34,305 root INFO loss: -5.99497652053833, Performance is better... saving the model
+16:33:34,313 root INFO Epoch 16, step 0/957.
+16:34:03,78 root INFO ---------- Pre-training loss of epoch 16 ----------
+16:34:03,78 root INFO Overall loss: -6.033269
+16:34:03,78 root INFO Task 1 loss: -6.225827
+16:34:03,78 root INFO Task 2 loss: -3.206248
+16:34:03,78 root INFO Task 3 loss: -6.910365
+16:34:03,79 root INFO loss: -6.033268928527832, Performance is better... saving the model
+16:34:03,87 root INFO Epoch 17, step 0/957.
+16:34:30,691 root INFO ---------- Pre-training loss of epoch 17 ----------
+16:34:30,691 root INFO Overall loss: -6.063216
+16:34:30,691 root INFO Task 1 loss: -6.258519
+16:34:30,691 root INFO Task 2 loss: -3.222551
+16:34:30,691 root INFO Task 3 loss: -6.943081
+16:34:30,691 root INFO loss: -6.063215732574463, Performance is better... saving the model
+16:34:30,797 root INFO Epoch 18, step 0/957.
+16:34:59,637 root INFO ---------- Pre-training loss of epoch 18 ----------
+16:34:59,637 root INFO Overall loss: -6.081834
+16:34:59,637 root INFO Task 1 loss: -6.280560
+16:34:59,637 root INFO Task 2 loss: -3.233737
+16:34:59,637 root INFO Task 3 loss: -6.961670
+16:34:59,638 root INFO loss: -6.081834316253662, Performance is better... saving the model
+16:34:59,645 root INFO Epoch 19, step 0/957.
+16:35:27,978 root INFO ---------- Pre-training loss of epoch 19 ----------
+16:35:27,978 root INFO Overall loss: -6.099488
+16:35:27,978 root INFO Task 1 loss: -6.303250
+16:35:27,979 root INFO Task 2 loss: -3.244757
+16:35:27,979 root INFO Task 3 loss: -6.977703
+16:35:27,979 root INFO loss: -6.099487781524658, Performance is better... saving the model
+16:35:28,85 root INFO Epoch 20, step 0/957.
+16:35:56,650 root INFO ---------- Pre-training loss of epoch 20 ----------
+16:35:56,650 root INFO Overall loss: -6.113891
+16:35:56,650 root INFO Task 1 loss: -6.323493
+16:35:56,650 root INFO Task 2 loss: -3.250960
+16:35:56,650 root INFO Task 3 loss: -6.990443
+16:35:56,651 root INFO loss: -6.113891124725342, Performance is better... saving the model
+16:35:56,659 root INFO Epoch 21, step 0/957.
+16:36:24,942 root INFO ---------- Pre-training loss of epoch 21 ----------
+16:36:24,942 root INFO Overall loss: -6.134494
+16:36:24,942 root INFO Task 1 loss: -6.345717
+16:36:24,942 root INFO Task 2 loss: -3.261800
+16:36:24,942 root INFO Task 3 loss: -7.013308
+16:36:24,942 root INFO loss: -6.134493827819824, Performance is better... saving the model
+16:36:24,950 root INFO Epoch 22, step 0/957.
+16:36:53,668 root INFO ---------- Pre-training loss of epoch 22 ----------
+16:36:53,669 root INFO Overall loss: -6.153162
+16:36:53,669 root INFO Task 1 loss: -6.364817
+16:36:53,669 root INFO Task 2 loss: -3.271664
+16:36:53,669 root INFO Task 3 loss: -7.034842
+16:36:53,669 root INFO loss: -6.153162002563477, Performance is better... saving the model
+16:36:53,776 root INFO Epoch 23, step 0/957.
+16:37:21,590 root INFO ---------- Pre-training loss of epoch 23 ----------
+16:37:21,590 root INFO Overall loss: -6.175218
+16:37:21,591 root INFO Task 1 loss: -6.389366
+16:37:21,591 root INFO Task 2 loss: -3.282250
+16:37:21,591 root INFO Task 3 loss: -7.059098
+16:37:21,591 root INFO loss: -6.175217628479004, Performance is better... saving the model
+16:37:21,601 root INFO Epoch 24, step 0/957.
+16:37:49,693 root INFO ---------- Pre-training loss of epoch 24 ----------
+16:37:49,693 root INFO Overall loss: -6.184076
+16:37:49,693 root INFO Task 1 loss: -6.396355
+16:37:49,694 root INFO Task 2 loss: -3.287314
+16:37:49,694 root INFO Task 3 loss: -7.070815
+16:37:49,694 root INFO loss: -6.184075832366943, Performance is better... saving the model
+16:37:49,702 root INFO Epoch 25, step 0/957.
+16:38:18,163 root INFO ---------- Pre-training loss of epoch 25 ----------
+16:38:18,164 root INFO Overall loss: -6.203264
+16:38:18,164 root INFO Task 1 loss: -6.418853
+16:38:18,164 root INFO Task 2 loss: -3.294794
+16:38:18,164 root INFO Task 3 loss: -7.091632
+16:38:18,164 root INFO loss: -6.203263759613037, Performance is better... saving the model
+16:38:18,173 root INFO Epoch 26, step 0/957.
+16:38:46,340 root INFO ---------- Pre-training loss of epoch 26 ----------
+16:38:46,340 root INFO Overall loss: -6.218212
+16:38:46,340 root INFO Task 1 loss: -6.434352
+16:38:46,340 root INFO Task 2 loss: -3.304261
+16:38:46,340 root INFO Task 3 loss: -7.108131
+16:38:46,340 root INFO loss: -6.218211650848389, Performance is better... saving the model
+16:38:46,348 root INFO Epoch 27, step 0/957.
+16:39:14,501 root INFO ---------- Pre-training loss of epoch 27 ----------
+16:39:14,502 root INFO Overall loss: -6.233898
+16:39:14,502 root INFO Task 1 loss: -6.451848
+16:39:14,502 root INFO Task 2 loss: -3.313564
+16:39:14,502 root INFO Task 3 loss: -7.124704
+16:39:14,502 root INFO loss: -6.233897686004639, Performance is better... saving the model
+16:39:14,510 root INFO Epoch 28, step 0/957.
+16:39:42,549 root INFO ---------- Pre-training loss of epoch 28 ----------
+16:39:42,549 root INFO Overall loss: -6.247279
+16:39:42,549 root INFO Task 1 loss: -6.466822
+16:39:42,549 root INFO Task 2 loss: -3.319307
+16:39:42,549 root INFO Task 3 loss: -7.139602
+16:39:42,549 root INFO loss: -6.247278690338135, Performance is better... saving the model
+16:39:42,656 root INFO Epoch 29, step 0/957.
+16:40:10,519 root INFO ---------- Pre-training loss of epoch 29 ----------
+16:40:10,519 root INFO Overall loss: -6.254386
+16:40:10,519 root INFO Task 1 loss: -6.474513
+16:40:10,519 root INFO Task 2 loss: -3.326314
+16:40:10,519 root INFO Task 3 loss: -7.146256
+16:40:10,519 root INFO loss: -6.2543864250183105, Performance is better... saving the model
+16:40:10,528 root INFO Epoch 30, step 0/957.
+16:40:39,268 root INFO ---------- Pre-training loss of epoch 30 ----------
+16:40:39,268 root INFO Overall loss: -6.269330
+16:40:39,269 root INFO Task 1 loss: -6.497262
+16:40:39,269 root INFO Task 2 loss: -3.333979
+16:40:39,269 root INFO Task 3 loss: -7.157598
+16:40:39,269 root INFO loss: -6.26932954788208, Performance is better... saving the model
+16:40:39,277 root INFO Epoch 31, step 0/957.
+16:41:07,867 root INFO ---------- Pre-training loss of epoch 31 ----------
+16:41:07,867 root INFO Overall loss: -6.276650
+16:41:07,867 root INFO Task 1 loss: -6.500797
+16:41:07,867 root INFO Task 2 loss: -3.337196
+16:41:07,867 root INFO Task 3 loss: -7.169468
+16:41:07,868 root INFO loss: -6.2766499519348145, Performance is better... saving the model
+16:41:08,3 root INFO Epoch 32, step 0/957.
+16:41:35,899 root INFO ---------- Pre-training loss of epoch 32 ----------
+16:41:35,899 root INFO Overall loss: -6.283510
+16:41:35,899 root INFO Task 1 loss: -6.507814
+16:41:35,899 root INFO Task 2 loss: -3.339444
+16:41:35,899 root INFO Task 3 loss: -7.177893
+16:41:35,899 root INFO loss: -6.283510208129883, Performance is better... saving the model
+16:41:35,907 root INFO Epoch 33, step 0/957.
+16:43:13,105 root INFO ---------- Pre-training loss of epoch 33 ----------
+16:43:13,105 root INFO Overall loss: -6.292922
+16:43:13,105 root INFO Task 1 loss: -6.519882
+16:43:13,105 root INFO Task 2 loss: -3.343064
+16:43:13,106 root INFO Task 3 loss: -7.187293
+16:43:13,106 root INFO loss: -6.292922019958496, Performance is better... saving the model
+16:43:13,113 root INFO Epoch 34, step 0/957.
+16:45:18,403 root INFO ---------- Pre-training loss of epoch 34 ----------
+16:45:18,403 root INFO Overall loss: -6.298033
+16:45:18,404 root INFO Task 1 loss: -6.526254
+16:45:18,404 root INFO Task 2 loss: -3.346504
+16:45:18,404 root INFO Task 3 loss: -7.192006
+16:45:18,404 root INFO loss: -6.298032760620117, Performance is better... saving the model
+16:45:18,412 root INFO Epoch 35, step 0/957.
+16:48:13,15 root INFO ---------- Pre-training loss of epoch 35 ----------
+16:48:13,16 root INFO Overall loss: -6.301153
+16:48:13,16 root INFO Task 1 loss: -6.529580
+16:48:13,16 root INFO Task 2 loss: -3.347603
+16:48:13,16 root INFO Task 3 loss: -7.195691
+16:48:13,16 root INFO loss: -6.30115270614624, Performance is better... saving the model
+16:48:13,24 root INFO Epoch 36, step 0/957.
+16:50:16,906 root INFO ---------- Pre-training loss of epoch 36 ----------
+16:50:16,906 root INFO Overall loss: -6.308453
+16:50:16,906 root INFO Task 1 loss: -6.536287
+16:50:16,907 root INFO Task 2 loss: -3.350016
+16:50:16,907 root INFO Task 3 loss: -7.205264
+16:50:16,907 root INFO loss: -6.308452606201172, Performance is better... saving the model
+16:50:16,915 root INFO Epoch 37, step 0/957.
+16:53:10,688 root INFO ---------- Pre-training loss of epoch 37 ----------
+16:53:10,688 root INFO Overall loss: -6.318571
+16:53:10,688 root INFO Task 1 loss: -6.547462
+16:53:10,688 root INFO Task 2 loss: -3.355709
+16:53:10,688 root INFO Task 3 loss: -7.216140
+16:53:10,688 root INFO loss: -6.318571090698242, Performance is better... saving the model
+16:53:10,696 root INFO Epoch 38, step 0/957.
+16:55:16,409 root INFO ---------- Pre-training loss of epoch 38 ----------
+16:55:16,409 root INFO Overall loss: -6.325475
+16:55:16,409 root INFO Task 1 loss: -6.551102
+16:55:16,409 root INFO Task 2 loss: -3.358981
+16:55:16,409 root INFO Task 3 loss: -7.226988
+16:55:16,410 root INFO loss: -6.325475215911865, Performance is better... saving the model
+16:55:16,417 root INFO Epoch 39, step 0/957.
+16:58:09,563 root INFO ---------- Pre-training loss of epoch 39 ----------
+16:58:09,563 root INFO Overall loss: -6.333426
+16:58:09,564 root INFO Task 1 loss: -6.562936
+16:58:09,564 root INFO Task 2 loss: -3.363510
+16:58:09,564 root INFO Task 3 loss: -7.233085
+16:58:09,564 root INFO loss: -6.333425521850586, Performance is better... saving the model
+16:58:09,574 root INFO Epoch 40, step 0/957.
+17:00:14,880 root INFO ---------- Pre-training loss of epoch 40 ----------
+17:00:14,880 root INFO Overall loss: -6.339717
+17:00:14,880 root INFO Task 1 loss: -6.567331
+17:00:14,880 root INFO Task 2 loss: -3.366676
+17:00:14,880 root INFO Task 3 loss: -7.242026
+17:00:14,880 root INFO loss: -6.339716911315918, Performance is better... saving the model
+17:00:14,888 root INFO Epoch 41, step 0/957.
+17:02:19,258 root INFO ---------- Pre-training loss of epoch 41 ----------
+17:02:19,258 root INFO Overall loss: -6.348314
+17:02:19,258 root INFO Task 1 loss: -6.578127
+17:02:19,259 root INFO Task 2 loss: -3.368896
+17:02:19,259 root INFO Task 3 loss: -7.251198
+17:02:19,259 root INFO loss: -6.34831428527832, Performance is better... saving the model
+17:02:19,267 root INFO Epoch 42, step 0/957.
+17:05:12,677 root INFO ---------- Pre-training loss of epoch 42 ----------
+17:05:12,677 root INFO Overall loss: -6.351750
+17:05:12,677 root INFO Task 1 loss: -6.582661
+17:05:12,678 root INFO Task 2 loss: -3.372173
+17:05:12,678 root INFO Task 3 loss: -7.253813
+17:05:12,678 root INFO loss: -6.351749897003174, Performance is better... saving the model
+17:05:12,685 root INFO Epoch 43, step 0/957.
+17:07:17,469 root INFO ---------- Pre-training loss of epoch 43 ----------
+17:07:17,470 root INFO Overall loss: -6.357522
+17:07:17,470 root INFO Task 1 loss: -6.587860
+17:07:17,470 root INFO Task 2 loss: -3.374447
+17:07:17,470 root INFO Task 3 loss: -7.261332
+17:07:17,470 root INFO loss: -6.357522487640381, Performance is better... saving the model
+17:07:17,478 root INFO Epoch 44, step 0/957.
+17:10:11,568 root INFO ---------- Pre-training loss of epoch 44 ----------
+17:10:11,568 root INFO Overall loss: -6.362022
+17:10:11,568 root INFO Task 1 loss: -6.593443
+17:10:11,568 root INFO Task 2 loss: -3.377731
+17:10:11,568 root INFO Task 3 loss: -7.265394
+17:10:11,568 root INFO loss: -6.3620219230651855, Performance is better... saving the model
+17:10:11,711 root INFO Epoch 45, step 0/957.
+17:12:17,835 root INFO ---------- Pre-training loss of epoch 45 ----------
+17:12:17,835 root INFO Overall loss: -6.365205
+17:12:17,835 root INFO Task 1 loss: -6.597699
+17:12:17,835 root INFO Task 2 loss: -3.378238
+17:12:17,835 root INFO Task 3 loss: -7.268680
+17:12:17,836 root INFO loss: -6.36520528793335, Performance is better... saving the model
+17:12:17,844 root INFO Epoch 46, step 0/957.
+17:15:10,189 root INFO ---------- Pre-training loss of epoch 46 ----------
+17:15:10,190 root INFO Overall loss: -6.366583
+17:15:10,190 root INFO Task 1 loss: -6.598495
+17:15:10,190 root INFO Task 2 loss: -3.380300
+17:15:10,190 root INFO Task 3 loss: -7.270287
+17:15:10,190 root INFO loss: -6.366583347320557, Performance is better... saving the model
+17:15:10,200 root INFO Epoch 47, step 0/957.
+17:17:16,83 root INFO ---------- Pre-training loss of epoch 47 ----------
+17:17:16,83 root INFO Overall loss: -6.372278
+17:17:16,83 root INFO Task 1 loss: -6.606743
+17:17:16,83 root INFO Task 2 loss: -3.384538
+17:17:16,83 root INFO Task 3 loss: -7.274469
+17:17:16,83 root INFO loss: -6.372277736663818, Performance is better... saving the model
+17:17:16,91 root INFO Epoch 48, step 0/957.
+17:20:09,108 root INFO ---------- Pre-training loss of epoch 48 ----------
+17:20:09,108 root INFO Overall loss: -6.378742
+17:20:09,109 root INFO Task 1 loss: -6.614283
+17:20:09,109 root INFO Task 2 loss: -3.387578
+17:20:09,109 root INFO Task 3 loss: -7.281323
+17:20:09,109 root INFO loss: -6.37874174118042, Performance is better... saving the model
+17:20:09,124 root INFO Epoch 49, step 0/957.
+17:22:14,502 root INFO ---------- Pre-training loss of epoch 49 ----------
+17:22:14,503 root INFO Overall loss: -6.384431
+17:22:14,503 root INFO Task 1 loss: -6.619857
+17:22:14,503 root INFO Task 2 loss: -3.390205
+17:22:14,503 root INFO Task 3 loss: -7.288219
+17:22:14,503 root INFO loss: -6.3844313621521, Performance is better... saving the model
+17:22:14,615 root INFO Epoch 50, step 0/957.
+17:24:19,698 root INFO ---------- Pre-training loss of epoch 50 ----------
+17:24:19,698 root INFO Overall loss: -6.390307
+17:24:19,698 root INFO Task 1 loss: -6.626407
+17:24:19,698 root INFO Task 2 loss: -3.391016
+17:24:19,699 root INFO Task 3 loss: -7.295416
+17:24:19,699 root INFO loss: -6.390307426452637, Performance is better... saving the model
+17:24:19,811 root INFO Epoch 51, step 0/957.
+17:27:13,130 root INFO ---------- Pre-training loss of epoch 51 ----------
+17:27:13,130 root INFO Overall loss: -6.390007
+17:27:13,130 root INFO Task 1 loss: -6.623549
+17:27:13,130 root INFO Task 2 loss: -3.392584
+17:27:13,130 root INFO Task 3 loss: -7.296462
+17:27:13,131 root INFO loss: -6.390007495880127, EarlyStopping counter: 1 out of 5
+17:27:13,132 root INFO Epoch 52, step 0/957.
+17:29:19,307 root INFO ---------- Pre-training loss of epoch 52 ----------
+17:29:19,307 root INFO Overall loss: -6.396324
+17:29:19,308 root INFO Task 1 loss: -6.634051
+17:29:19,308 root INFO Task 2 loss: -3.393981
+17:29:19,308 root INFO Task 3 loss: -7.301237
+17:29:19,308 root INFO loss: -6.3963236808776855, Performance is better... saving the model
+17:29:19,316 root INFO Epoch 53, step 0/957.
+17:32:11,877 root INFO ---------- Pre-training loss of epoch 53 ----------
+17:32:11,877 root INFO Overall loss: -6.398550
+17:32:11,877 root INFO Task 1 loss: -6.635867
+17:32:11,877 root INFO Task 2 loss: -3.396926
+17:32:11,878 root INFO Task 3 loss: -7.303516
+17:32:11,878 root INFO loss: -6.398549556732178, Performance is better... saving the model
+17:32:11,886 root INFO Epoch 54, step 0/957.
+17:34:17,266 root INFO ---------- Pre-training loss of epoch 54 ----------
+17:34:17,266 root INFO Overall loss: -6.403381
+17:34:17,266 root INFO Task 1 loss: -6.640539
+17:34:17,266 root INFO Task 2 loss: -3.400013
+17:34:17,267 root INFO Task 3 loss: -7.309120
+17:34:17,267 root INFO loss: -6.403380870819092, Performance is better... saving the model
+17:34:17,377 root INFO Epoch 55, step 0/957.
+17:37:10,545 root INFO ---------- Pre-training loss of epoch 55 ----------
+17:37:10,546 root INFO Overall loss: -6.408193
+17:37:10,546 root INFO Task 1 loss: -6.645234
+17:37:10,546 root INFO Task 2 loss: -3.401706
+17:37:10,546 root INFO Task 3 loss: -7.315169
+17:37:10,546 root INFO loss: -6.4081926345825195, Performance is better... saving the model
+17:37:10,555 root INFO Epoch 56, step 0/957.
+17:39:15,669 root INFO ---------- Pre-training loss of epoch 56 ----------
+17:39:15,669 root INFO Overall loss: -6.410122
+17:39:15,669 root INFO Task 1 loss: -6.647696
+17:39:15,669 root INFO Task 2 loss: -3.403590
+17:39:15,669 root INFO Task 3 loss: -7.316672
+17:39:15,669 root INFO loss: -6.410122394561768, Performance is better... saving the model
+17:39:15,678 root INFO Epoch 57, step 0/957.
+17:42:09,832 root INFO ---------- Pre-training loss of epoch 57 ----------
+17:42:09,832 root INFO Overall loss: -6.412200
+17:42:09,832 root INFO Task 1 loss: -6.651194
+17:42:09,832 root INFO Task 2 loss: -3.404602
+17:42:09,833 root INFO Task 3 loss: -7.318002
+17:42:09,833 root INFO loss: -6.412199974060059, Performance is better... saving the model
+17:42:09,841 root INFO Epoch 58, step 0/957.
+17:44:14,542 root INFO ---------- Pre-training loss of epoch 58 ----------
+17:44:14,542 root INFO Overall loss: -6.414479
+17:44:14,542 root INFO Task 1 loss: -6.653098
+17:44:14,542 root INFO Task 2 loss: -3.406081
+17:44:14,543 root INFO Task 3 loss: -7.320875
+17:44:14,543 root INFO loss: -6.4144792556762695, Performance is better... saving the model
+17:44:14,656 root INFO Epoch 59, step 0/957.
+17:46:18,750 root INFO ---------- Pre-training loss of epoch 59 ----------
+17:46:18,750 root INFO Overall loss: -6.417374
+17:46:18,750 root INFO Task 1 loss: -6.655464
+17:46:18,750 root INFO Task 2 loss: -3.407557
+17:46:18,750 root INFO Task 3 loss: -7.324720
+17:46:18,750 root INFO loss: -6.4173736572265625, Performance is better... saving the model
+17:46:18,759 root INFO Epoch 60, step 0/957.
+17:48:42,657 root INFO ---------- Pre-training loss of epoch 60 ----------
+17:48:42,657 root INFO Overall loss: -6.421156
+17:48:42,657 root INFO Task 1 loss: -6.659046
+17:48:42,657 root INFO Task 2 loss: -3.409356
+17:48:42,658 root INFO Task 3 loss: -7.329380
+17:48:42,658 root INFO loss: -6.42115592956543, Performance is better... saving the model
+17:48:42,665 root INFO Epoch 61, step 0/957.
+17:49:10,746 root INFO ---------- Pre-training loss of epoch 61 ----------
+17:49:10,746 root INFO Overall loss: -6.424878
+17:49:10,747 root INFO Task 1 loss: -6.665974
+17:49:10,747 root INFO Task 2 loss: -3.410719
+17:49:10,747 root INFO Task 3 loss: -7.331400
+17:49:10,747 root INFO loss: -6.424878120422363, Performance is better... saving the model
+17:49:10,917 root INFO Epoch 62, step 0/957.
+17:49:38,895 root INFO ---------- Pre-training loss of epoch 62 ----------
+17:49:38,896 root INFO Overall loss: -6.425984
+17:49:38,896 root INFO Task 1 loss: -6.664588
+17:49:38,896 root INFO Task 2 loss: -3.412591
+17:49:38,896 root INFO Task 3 loss: -7.334218
+17:49:38,896 root INFO loss: -6.425983905792236, Performance is better... saving the model
+17:49:38,905 root INFO Epoch 63, step 0/957.
+17:50:06,907 root INFO ---------- Pre-training loss of epoch 63 ----------
+17:50:06,907 root INFO Overall loss: -6.431592
+17:50:06,907 root INFO Task 1 loss: -6.672626
+17:50:06,907 root INFO Task 2 loss: -3.414694
+17:50:06,907 root INFO Task 3 loss: -7.339155
+17:50:06,907 root INFO loss: -6.431591987609863, Performance is better... saving the model
+17:50:06,915 root INFO Epoch 64, step 0/957.
+17:50:34,996 root INFO ---------- Pre-training loss of epoch 64 ----------
+17:50:34,996 root INFO Overall loss: -6.433296
+17:50:34,997 root INFO Task 1 loss: -6.674163
+17:50:34,997 root INFO Task 2 loss: -3.416700
+17:50:34,997 root INFO Task 3 loss: -7.340880
+17:50:34,997 root INFO loss: -6.433295726776123, Performance is better... saving the model
+17:50:35,6 root INFO Epoch 65, step 0/957.
+17:51:03,472 root INFO ---------- Pre-training loss of epoch 65 ----------
+17:51:03,473 root INFO Overall loss: -6.434950
+17:51:03,473 root INFO Task 1 loss: -6.677003
+17:51:03,473 root INFO Task 2 loss: -3.416713
+17:51:03,473 root INFO Task 3 loss: -7.342191
+17:51:03,473 root INFO loss: -6.43494987487793, Performance is better... saving the model
+17:51:03,480 root INFO Epoch 66, step 0/957.
+17:51:31,641 root INFO ---------- Pre-training loss of epoch 66 ----------
+17:51:31,642 root INFO Overall loss: -6.437099
+17:51:31,642 root INFO Task 1 loss: -6.679514
+17:51:31,642 root INFO Task 2 loss: -3.417668
+17:51:31,642 root INFO Task 3 loss: -7.344477
+17:51:31,642 root INFO loss: -6.437098979949951, Performance is better... saving the model
+17:51:31,650 root INFO Epoch 67, step 0/957.
+17:51:58,904 root INFO ---------- Pre-training loss of epoch 67 ----------
+17:51:58,904 root INFO Overall loss: -6.440295
+17:51:58,904 root INFO Task 1 loss: -6.681825
+17:51:58,904 root INFO Task 2 loss: -3.419978
+17:51:58,904 root INFO Task 3 loss: -7.348700
+17:51:58,905 root INFO loss: -6.4402947425842285, Performance is better... saving the model
+17:51:59,18 root INFO Epoch 68, step 0/957.
+17:52:25,296 root INFO ---------- Pre-training loss of epoch 68 ----------
+17:52:25,296 root INFO Overall loss: -6.443913
+17:52:25,297 root INFO Task 1 loss: -6.687009
+17:52:25,297 root INFO Task 2 loss: -3.421975
+17:52:25,297 root INFO Task 3 loss: -7.351673
+17:52:25,297 root INFO loss: -6.443912982940674, Performance is better... saving the model
+17:52:25,304 root INFO Epoch 69, step 0/957.
+17:52:51,706 root INFO ---------- Pre-training loss of epoch 69 ----------
+17:52:51,706 root INFO Overall loss: -6.445885
+17:52:51,706 root INFO Task 1 loss: -6.689039
+17:52:51,706 root INFO Task 2 loss: -3.423637
+17:52:51,706 root INFO Task 3 loss: -7.353688
+17:52:51,706 root INFO loss: -6.445884704589844, Performance is better... saving the model
+17:52:51,714 root INFO Epoch 70, step 0/957.
+17:53:18,664 root INFO ---------- Pre-training loss of epoch 70 ----------
+17:53:18,664 root INFO Overall loss: -6.449017
+17:53:18,664 root INFO Task 1 loss: -6.694225
+17:53:18,664 root INFO Task 2 loss: -3.423630
+17:53:18,664 root INFO Task 3 loss: -7.356341
+17:53:18,664 root INFO loss: -6.44901704788208, Performance is better... saving the model
+17:53:18,772 root INFO Epoch 71, step 0/957.
+17:53:47,350 root INFO ---------- Pre-training loss of epoch 71 ----------
+17:53:47,350 root INFO Overall loss: -6.448434
+17:53:47,350 root INFO Task 1 loss: -6.691913
+17:53:47,350 root INFO Task 2 loss: -3.424332
+17:53:47,350 root INFO Task 3 loss: -7.356667
+17:53:47,350 root INFO loss: -6.448434352874756, EarlyStopping counter: 1 out of 5
+17:53:47,455 root INFO Epoch 72, step 0/957.
+17:54:15,882 root INFO ---------- Pre-training loss of epoch 72 ----------
+17:54:15,882 root INFO Overall loss: -6.451951
+17:54:15,882 root INFO Task 1 loss: -6.694800
+17:54:15,882 root INFO Task 2 loss: -3.426469
+17:54:15,882 root INFO Task 3 loss: -7.361179
+17:54:15,883 root INFO loss: -6.451951026916504, Performance is better... saving the model
+17:54:15,891 root INFO Epoch 73, step 0/957.
+17:54:43,762 root INFO ---------- Pre-training loss of epoch 73 ----------
+17:54:43,762 root INFO Overall loss: -6.451986
+17:54:43,762 root INFO Task 1 loss: -6.694317
+17:54:43,762 root INFO Task 2 loss: -3.427655
+17:54:43,762 root INFO Task 3 loss: -7.361208
+17:54:43,762 root INFO loss: -6.451986312866211, EarlyStopping counter: 1 out of 5
+17:54:43,764 root INFO Epoch 74, step 0/957.
+17:55:12,375 root INFO ---------- Pre-training loss of epoch 74 ----------
+17:55:12,375 root INFO Overall loss: -6.456894
+17:55:12,375 root INFO Task 1 loss: -6.702205
+17:55:12,375 root INFO Task 2 loss: -3.428366
+17:55:12,375 root INFO Task 3 loss: -7.365282
+17:55:12,376 root INFO loss: -6.456894397735596, Performance is better... saving the model
+17:55:12,384 root INFO Epoch 75, step 0/957.
+17:55:39,797 root INFO ---------- Pre-training loss of epoch 75 ----------
+17:55:39,798 root INFO Overall loss: -6.455699
+17:55:39,798 root INFO Task 1 loss: -6.700123
+17:55:39,798 root INFO Task 2 loss: -3.429717
+17:55:39,798 root INFO Task 3 loss: -7.363867
+17:55:39,798 root INFO loss: -6.455699443817139, EarlyStopping counter: 1 out of 5
+17:55:39,800 root INFO Epoch 76, step 0/957.
+17:56:08,318 root INFO ---------- Pre-training loss of epoch 76 ----------
+17:56:08,318 root INFO Overall loss: -6.456605
+17:56:08,318 root INFO Task 1 loss: -6.699245
+17:56:08,318 root INFO Task 2 loss: -3.429301
+17:56:08,318 root INFO Task 3 loss: -7.366672
+17:56:08,318 root INFO loss: -6.456605434417725, EarlyStopping counter: 2 out of 5
+17:56:08,421 root INFO Epoch 77, step 0/957.
+17:56:37,249 root INFO ---------- Pre-training loss of epoch 77 ----------
+17:56:37,250 root INFO Overall loss: -6.461700
+17:56:37,250 root INFO Task 1 loss: -6.706904
+17:56:37,250 root INFO Task 2 loss: -3.431137
+17:56:37,250 root INFO Task 3 loss: -7.370913
+17:56:37,250 root INFO loss: -6.461699962615967, Performance is better... saving the model
+17:56:37,258 root INFO Epoch 78, step 0/957.
+17:57:05,793 root INFO ---------- Pre-training loss of epoch 78 ----------
+17:57:05,793 root INFO Overall loss: -6.463085
+17:57:05,793 root INFO Task 1 loss: -6.707660
+17:57:05,793 root INFO Task 2 loss: -3.431548
+17:57:05,793 root INFO Task 3 loss: -7.373146
+17:57:05,793 root INFO loss: -6.463084697723389, Performance is better... saving the model
+17:57:05,895 root INFO Epoch 79, step 0/957.
+17:57:34,239 root INFO ---------- Pre-training loss of epoch 79 ----------
+17:57:34,239 root INFO Overall loss: -6.463454
+17:57:34,239 root INFO Task 1 loss: -6.707773
+17:57:34,239 root INFO Task 2 loss: -3.432660
+17:57:34,239 root INFO Task 3 loss: -7.373472
+17:57:34,240 root INFO loss: -6.463453769683838, EarlyStopping counter: 1 out of 5
+17:57:34,241 root INFO Epoch 80, step 0/957.
+17:58:02,721 root INFO ---------- Pre-training loss of epoch 80 ----------
+17:58:02,721 root INFO Overall loss: -6.462955
+17:58:02,721 root INFO Task 1 loss: -6.707406
+17:58:02,721 root INFO Task 2 loss: -3.432517
+17:58:02,721 root INFO Task 3 loss: -7.372723
+17:58:02,722 root INFO loss: -6.462954998016357, EarlyStopping counter: 2 out of 5
+17:58:02,723 root INFO Epoch 81, step 0/957.
+17:58:30,108 root INFO ---------- Pre-training loss of epoch 81 ----------
+17:58:30,108 root INFO Overall loss: -6.467484
+17:58:30,108 root INFO Task 1 loss: -6.711964
+17:58:30,108 root INFO Task 2 loss: -3.434213
+17:58:30,108 root INFO Task 3 loss: -7.378279
+17:58:30,109 root INFO loss: -6.4674835205078125, Performance is better... saving the model
+17:58:30,116 root INFO Epoch 82, step 0/957.
+17:58:58,176 root INFO ---------- Pre-training loss of epoch 82 ----------
+17:58:58,176 root INFO Overall loss: -6.467726
+17:58:58,176 root INFO Task 1 loss: -6.713272
+17:58:58,176 root INFO Task 2 loss: -3.435210
+17:58:58,176 root INFO Task 3 loss: -7.377363
+17:58:58,177 root INFO loss: -6.46772575378418, EarlyStopping counter: 1 out of 5
+17:58:58,178 root INFO Epoch 83, step 0/957.
+17:59:26,647 root INFO ---------- Pre-training loss of epoch 83 ----------
+17:59:26,647 root INFO Overall loss: -6.470534
+17:59:26,648 root INFO Task 1 loss: -6.717194
+17:59:26,648 root INFO Task 2 loss: -3.437274
+17:59:26,648 root INFO Task 3 loss: -7.379553
+17:59:26,648 root INFO loss: -6.470534324645996, Performance is better... saving the model
+17:59:26,655 root INFO Epoch 84, step 0/957.
+17:59:55,631 root INFO ---------- Pre-training loss of epoch 84 ----------
+17:59:55,631 root INFO Overall loss: -6.471325
+17:59:55,631 root INFO Task 1 loss: -6.717033
+17:59:55,631 root INFO Task 2 loss: -3.437975
+17:59:55,631 root INFO Task 3 loss: -7.381141
+17:59:55,632 root INFO loss: -6.471324920654297, EarlyStopping counter: 1 out of 5
+17:59:55,633 root INFO Epoch 85, step 0/957.
+18:00:24,358 root INFO ---------- Pre-training loss of epoch 85 ----------
+18:00:24,358 root INFO Overall loss: -6.472685
+18:00:24,358 root INFO Task 1 loss: -6.718698
+18:00:24,358 root INFO Task 2 loss: -3.438179
+18:00:24,358 root INFO Task 3 loss: -7.382671
+18:00:24,358 root INFO loss: -6.472684860229492, Performance is better... saving the model
+18:00:24,465 root INFO Epoch 86, step 0/957.
+18:00:52,705 root INFO ---------- Pre-training loss of epoch 86 ----------
+18:00:52,705 root INFO Overall loss: -6.475645
+18:00:52,706 root INFO Task 1 loss: -6.722573
+18:00:52,706 root INFO Task 2 loss: -3.438633
+18:00:52,706 root INFO Task 3 loss: -7.385818
+18:00:52,706 root INFO loss: -6.475645065307617, Performance is better... saving the model
+18:00:52,714 root INFO Epoch 87, step 0/957.
+18:01:21,19 root INFO ---------- Pre-training loss of epoch 87 ----------
+18:01:21,19 root INFO Overall loss: -6.474935
+18:01:21,19 root INFO Task 1 loss: -6.720069
+18:01:21,19 root INFO Task 2 loss: -3.438305
+18:01:21,20 root INFO Task 3 loss: -7.386426
+18:01:21,20 root INFO loss: -6.4749345779418945, EarlyStopping counter: 1 out of 5
+18:01:21,21 root INFO Epoch 88, step 0/957.
+18:01:49,134 root INFO ---------- Pre-training loss of epoch 88 ----------
+18:01:49,134 root INFO Overall loss: -6.476743
+18:01:49,134 root INFO Task 1 loss: -6.722814
+18:01:49,134 root INFO Task 2 loss: -3.438678
+18:01:49,135 root INFO Task 3 loss: -7.388015
+18:01:49,135 root INFO loss: -6.476742744445801, Performance is better... saving the model
+18:01:49,241 root INFO Epoch 89, step 0/957.
+18:02:17,692 root INFO ---------- Pre-training loss of epoch 89 ----------
+18:02:17,692 root INFO Overall loss: -6.477940
+18:02:17,692 root INFO Task 1 loss: -6.726515
+18:02:17,692 root INFO Task 2 loss: -3.439526
+18:02:17,693 root INFO Task 3 loss: -7.387314
+18:02:17,693 root INFO loss: -6.477939605712891, Performance is better... saving the model
+18:02:17,701 root INFO Epoch 90, step 0/957.
+18:02:45,100 root INFO ---------- Pre-training loss of epoch 90 ----------
+18:02:45,100 root INFO Overall loss: -6.477020
+18:02:45,100 root INFO Task 1 loss: -6.722733
+18:02:45,100 root INFO Task 2 loss: -3.439685
+18:02:45,101 root INFO Task 3 loss: -7.388278
+18:02:45,101 root INFO loss: -6.477020263671875, EarlyStopping counter: 1 out of 5
+18:02:45,209 root INFO Epoch 91, step 0/957.
+18:03:13,818 root INFO ---------- Pre-training loss of epoch 91 ----------
+18:03:13,818 root INFO Overall loss: -6.481152
+18:03:13,819 root INFO Task 1 loss: -6.729656
+18:03:13,819 root INFO Task 2 loss: -3.440286
+18:03:13,819 root INFO Task 3 loss: -7.391482
+18:03:13,819 root INFO loss: -6.481152057647705, Performance is better... saving the model
+18:03:13,826 root INFO Epoch 92, step 0/957.
+18:03:42,302 root INFO ---------- Pre-training loss of epoch 92 ----------
+18:03:42,302 root INFO Overall loss: -6.478409
+18:03:42,302 root INFO Task 1 loss: -6.724960
+18:03:42,302 root INFO Task 2 loss: -3.440589
+18:03:42,302 root INFO Task 3 loss: -7.389186
+18:03:42,302 root INFO loss: -6.4784088134765625, EarlyStopping counter: 1 out of 5
+18:03:42,304 root INFO Epoch 93, step 0/957.
+18:04:11,98 root INFO ---------- Pre-training loss of epoch 93 ----------
+18:04:11,98 root INFO Overall loss: -6.482570
+18:04:11,98 root INFO Task 1 loss: -6.728731
+18:04:11,99 root INFO Task 2 loss: -3.441748
+18:04:11,99 root INFO Task 3 loss: -7.394760
+18:04:11,99 root INFO loss: -6.482570171356201, Performance is better... saving the model
+18:04:11,106 root INFO Epoch 94, step 0/957.
+18:04:39,292 root INFO ---------- Pre-training loss of epoch 94 ----------
+18:04:39,292 root INFO Overall loss: -6.481608
+18:04:39,292 root INFO Task 1 loss: -6.728440
+18:04:39,292 root INFO Task 2 loss: -3.441695
+18:04:39,292 root INFO Task 3 loss: -7.392937
+18:04:39,292 root INFO loss: -6.4816083908081055, EarlyStopping counter: 1 out of 5
+18:04:39,294 root INFO Epoch 95, step 0/957.
+18:05:07,885 root INFO ---------- Pre-training loss of epoch 95 ----------
+18:05:07,885 root INFO Overall loss: -6.483581
+18:05:07,886 root INFO Task 1 loss: -6.730826
+18:05:07,886 root INFO Task 2 loss: -3.442734
+18:05:07,886 root INFO Task 3 loss: -7.394918
+18:05:07,886 root INFO loss: -6.483580589294434, Performance is better... saving the model
+18:05:07,895 root INFO Epoch 96, step 0/957.
+18:05:35,832 root INFO ---------- Pre-training loss of epoch 96 ----------
+18:05:35,832 root INFO Overall loss: -6.485176
+18:05:35,832 root INFO Task 1 loss: -6.732008
+18:05:35,832 root INFO Task 2 loss: -3.442768
+18:05:35,832 root INFO Task 3 loss: -7.397404
+18:05:35,833 root INFO loss: -6.485175609588623, Performance is better... saving the model
+18:05:35,944 root INFO Epoch 97, step 0/957.
+18:06:04,795 root INFO ---------- Pre-training loss of epoch 97 ----------
+18:06:04,795 root INFO Overall loss: -6.486380
+18:06:04,796 root INFO Task 1 loss: -6.733582
+18:06:04,796 root INFO Task 2 loss: -3.443859
+18:06:04,796 root INFO Task 3 loss: -7.398358
+18:06:04,796 root INFO loss: -6.486379623413086, Performance is better... saving the model
+18:06:04,804 root INFO Epoch 98, step 0/957.
+18:06:33,234 root INFO ---------- Pre-training loss of epoch 98 ----------
+18:06:33,234 root INFO Overall loss: -6.485167
+18:06:33,234 root INFO Task 1 loss: -6.732637
+18:06:33,234 root INFO Task 2 loss: -3.443124
+18:06:33,234 root INFO Task 3 loss: -7.396761
+18:06:33,234 root INFO loss: -6.485167026519775, EarlyStopping counter: 1 out of 5
+18:06:33,334 root INFO Epoch 99, step 0/957.
+18:07:02,313 root INFO ---------- Pre-training loss of epoch 99 ----------
+18:07:02,313 root INFO Overall loss: -6.486737
+18:07:02,313 root INFO Task 1 loss: -6.734719
+18:07:02,313 root INFO Task 2 loss: -3.445702
+18:07:02,313 root INFO Task 3 loss: -7.397531
+18:07:02,313 root INFO loss: -6.486737251281738, EarlyStopping counter: 2 out of 5
+18:07:02,315 root INFO Epoch 100, step 0/957.
+18:07:30,945 root INFO ---------- Pre-training loss of epoch 100 ----------
+18:07:30,945 root INFO Overall loss: -6.487783
+18:07:30,946 root INFO Task 1 loss: -6.736067
+18:07:30,946 root INFO Task 2 loss: -3.446476
+18:07:30,946 root INFO Task 3 loss: -7.398448
+18:07:30,946 root INFO loss: -6.487783432006836, Performance is better... saving the model
+18:07:30,955 root INFO Epoch 101, step 0/957.
+18:07:59,364 root INFO ---------- Pre-training loss of epoch 101 ----------
+18:07:59,364 root INFO Overall loss: -6.488354
+18:07:59,364 root INFO Task 1 loss: -6.736921
+18:07:59,364 root INFO Task 2 loss: -3.447028
+18:07:59,364 root INFO Task 3 loss: -7.398785
+18:07:59,365 root INFO loss: -6.488353729248047, EarlyStopping counter: 1 out of 5
+18:07:59,468 root INFO Epoch 102, step 0/957.
+18:08:27,364 root INFO ---------- Pre-training loss of epoch 102 ----------
+18:08:27,364 root INFO Overall loss: -6.487741
+18:08:27,365 root INFO Task 1 loss: -6.736695
+18:08:27,365 root INFO Task 2 loss: -3.447931
+18:08:27,365 root INFO Task 3 loss: -7.397309
+18:08:27,365 root INFO loss: -6.487740993499756, EarlyStopping counter: 2 out of 5
+18:08:27,366 root INFO Epoch 103, step 0/957.
+18:08:55,776 root INFO ---------- Pre-training loss of epoch 103 ----------
+18:08:55,776 root INFO Overall loss: -6.490149
+18:08:55,777 root INFO Task 1 loss: -6.740312
+18:08:55,777 root INFO Task 2 loss: -3.448353
+18:08:55,777 root INFO Task 3 loss: -7.399488
+18:08:55,777 root INFO loss: -6.490149021148682, Performance is better... saving the model
+18:08:55,785 root INFO Epoch 104, step 0/957.
+18:09:24,491 root INFO ---------- Pre-training loss of epoch 104 ----------
+18:09:24,491 root INFO Overall loss: -6.490560
+18:09:24,491 root INFO Task 1 loss: -6.741760
+18:09:24,491 root INFO Task 2 loss: -3.449203
+18:09:24,491 root INFO Task 3 loss: -7.398891
+18:09:24,492 root INFO loss: -6.490560054779053, EarlyStopping counter: 1 out of 5
+18:09:24,494 root INFO Epoch 105, step 0/957.
+18:09:53,669 root INFO ---------- Pre-training loss of epoch 105 ----------
+18:09:53,669 root INFO Overall loss: -6.493073
+18:09:53,669 root INFO Task 1 loss: -6.744239
+18:09:53,669 root INFO Task 2 loss: -3.449507
+18:09:53,669 root INFO Task 3 loss: -7.402255
+18:09:53,670 root INFO loss: -6.493072509765625, Performance is better... saving the model
+18:09:53,677 root INFO Epoch 106, step 0/957.
+18:10:21,997 root INFO ---------- Pre-training loss of epoch 106 ----------
+18:10:21,998 root INFO Overall loss: -6.492812
+18:10:21,998 root INFO Task 1 loss: -6.744319
+18:10:21,998 root INFO Task 2 loss: -3.449716
+18:10:21,998 root INFO Task 3 loss: -7.401542
+18:10:21,998 root INFO loss: -6.492811679840088, EarlyStopping counter: 1 out of 5
+18:10:22,105 root INFO Epoch 107, step 0/957.
+18:10:50,260 root INFO ---------- Pre-training loss of epoch 107 ----------
+18:10:50,260 root INFO Overall loss: -6.493209
+18:10:50,260 root INFO Task 1 loss: -6.744363
+18:10:50,261 root INFO Task 2 loss: -3.449306
+18:10:50,261 root INFO Task 3 loss: -7.402534
+18:10:50,261 root INFO loss: -6.493208885192871, EarlyStopping counter: 2 out of 5
+18:10:50,263 root INFO Epoch 108, step 0/957.
+18:11:19,110 root INFO ---------- Pre-training loss of epoch 108 ----------
+18:11:19,110 root INFO Overall loss: -6.492605
+18:11:19,111 root INFO Task 1 loss: -6.743980
+18:11:19,111 root INFO Task 2 loss: -3.449768
+18:11:19,111 root INFO Task 3 loss: -7.401350
+18:11:19,111 root INFO loss: -6.492605209350586, EarlyStopping counter: 3 out of 5
+18:11:19,113 root INFO Epoch 109, step 0/957.
+18:11:47,582 root INFO ---------- Pre-training loss of epoch 109 ----------
+18:11:47,582 root INFO Overall loss: -6.494500
+18:11:47,582 root INFO Task 1 loss: -6.746945
+18:11:47,583 root INFO Task 2 loss: -3.449667
+18:11:47,583 root INFO Task 3 loss: -7.403109
+18:11:47,583 root INFO loss: -6.494499683380127, Performance is better... saving the model
+18:11:47,590 root INFO Epoch 110, step 0/957.
+18:12:16,747 root INFO ---------- Pre-training loss of epoch 110 ----------
+18:12:16,747 root INFO Overall loss: -6.493937
+18:12:16,747 root INFO Task 1 loss: -6.745887
+18:12:16,747 root INFO Task 2 loss: -3.449771
+18:12:16,747 root INFO Task 3 loss: -7.402699
+18:12:16,747 root INFO loss: -6.493937015533447, EarlyStopping counter: 1 out of 5
+18:12:16,749 root INFO Epoch 111, step 0/957.
+18:12:45,845 root INFO ---------- Pre-training loss of epoch 111 ----------
+18:12:45,845 root INFO Overall loss: -6.493760
+18:12:45,845 root INFO Task 1 loss: -6.744781
+18:12:45,845 root INFO Task 2 loss: -3.449242
+18:12:45,845 root INFO Task 3 loss: -7.403382
+18:12:45,845 root INFO loss: -6.493759632110596, EarlyStopping counter: 2 out of 5
+18:12:45,948 root INFO Epoch 112, step 0/957.
+18:13:14,291 root INFO ---------- Pre-training loss of epoch 112 ----------
+18:13:14,292 root INFO Overall loss: -6.493860
+18:13:14,292 root INFO Task 1 loss: -6.745079
+18:13:14,292 root INFO Task 2 loss: -3.449958
+18:13:14,292 root INFO Task 3 loss: -7.403119
+18:13:14,292 root INFO loss: -6.493860244750977, EarlyStopping counter: 3 out of 5
+18:13:14,294 root INFO Epoch 113, step 0/957.
+18:13:42,729 root INFO ---------- Pre-training loss of epoch 113 ----------
+18:13:42,729 root INFO Overall loss: -6.495017
+18:13:42,729 root INFO Task 1 loss: -6.748085
+18:13:42,729 root INFO Task 2 loss: -3.450470
+18:13:42,730 root INFO Task 3 loss: -7.403034
+18:13:42,730 root INFO loss: -6.495016574859619, EarlyStopping counter: 4 out of 5
+18:13:42,732 root INFO Epoch 114, step 0/957.
+18:14:11,207 root INFO ---------- Pre-training loss of epoch 114 ----------
+18:14:11,207 root INFO Overall loss: -6.494510
+18:14:11,207 root INFO Task 1 loss: -6.746447
+18:14:11,207 root INFO Task 2 loss: -3.450194
+18:14:11,207 root INFO Task 3 loss: -7.403337
+18:14:11,208 root INFO loss: -6.494510173797607, EarlyStopping counter: 5 out of 5
+18:14:11,208 root INFO Pretrain Early stopping. Epochs:114 early_stop_loss:-6.494500
