@@ -15,4 +15,4 @@ python ColdGPT.py --t1 --t3 --plm SBERT
 python evaluate.py --t1 --t3 --plm SBERT
 ```
 
-Links to the Google drive folders containing all four preprocessed SCS datasets will be available uploaded soon.
+Links to the Google drive folders containing all four preprocessed SCS datasets will be uploaded soon.
